@@ -1,0 +1,171 @@
+body{
+    background-color: white;
+}
+
+/* Navigation */
+.navigation{
+    display:flex;
+    font-size: 1.3rem;
+    font-family: 'Roboto Slab', serif;
+    width:100%;
+}
+.nav_item{
+    color: black;
+}
+.nav_item:hover{
+    color: rgb(192, 21, 21);
+}
+
+/* Home */
+
+.choosematerial{
+    width: 10%;
+    font-size: 5rem;
+    font-family: 'Roboto Slab', serif;
+    /* margin-top: 10rem; */
+    margin-left: 8rem;
+    position: absolute;
+    margin-top: 21rem;
+    line-height: 6rem;
+}
+.choosematerial2{
+    font-size: 5rem;
+    font-family: 'Roboto Slab', serif;
+    /* margin-top: 10rem; */
+    margin-left: 8rem;
+    position: absolute;
+    margin-top: rem;
+    line-height: 6rem;
+}
+
+button{
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    border-radius: .5rem;
+    background-color: black;
+    color: white;
+    margin-left: 10rem;
+    margin-top: 35rem;
+    font-size:1.2rem;
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    box-shadow:0 20px 40px 0 rgba(0, 3, 3, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+button:hover{
+    background-color: red;
+}
+img{
+    width: 40%;
+    height: auto;
+    margin-top: 3rem;
+    margin-left: 44rem;
+    position: absolute;
+    box-shadow:0 20px 40px 0 rgba(0, 3, 3, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* pilihan materi */
+.matericontainer{
+    display:flex;
+}
+.materi{
+        display: inline-block;
+        width: 15%;
+        height: 200px;
+        padding: 5px;   
+        background-color: black; 
+        border-radius: 1rem;
+        box-shadow:0 20px 40px 0 rgba(0, 3, 3, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top: 15rem;
+        margin-left: 3rem;
+        transition: 1s;
+}
+.materiA{
+    display: inline-block;
+    width: 15%;
+    height: 200px;
+    padding: 5px;   
+    background-color: black; 
+    border-radius: 1rem;
+    box-shadow:0 20px 40px 0 rgba(0, 3, 3, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 32rem;
+    margin-left: 3rem;
+    transition: 1s;
+}
+.materi:hover{
+    background-color: red;
+   
+}
+.isimateri1{
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    text-align:center;
+    margin-top: 35%;
+    transition: 0.4s;
+}
+.isimateri1:hover{
+    font-size:3.6rem;
+    margin-top: 3.6rem;
+}
+
+.isimateri2{
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    text-align:center;
+    margin-top: 35%;
+    transition: 0.4s;
+}
+.isimateri2:hover{
+    font-size:2.3rem;
+    margin-top: 4.4rem;
+}
+.isimateri3{
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    text-align:center;
+    margin-top: 35%;
+    transition: 0.4s;
+}
+.isimateri3:hover{
+    font-size:3.6rem;
+    margin-top: 3.6rem;
+}
+.isimateri4{
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    text-align:center;
+    margin-top: 35%;
+    transition: 0.4s;
+}
+.isimateri4:hover{
+    font-size:3.6rem;
+    margin-top: 3.6rem;
+}
+.isimateri5{
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    text-align:center;
+    margin-top: 35%;
+    transition: 0.4s;
+}
+.isimateri5:hover{
+    font-size:3.6rem;
+    margin-top: 3.6rem;
+}
+.isimateri6{
+    color:white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    text-align:center;
+    margin-top: 35%;
+    transition: 0.4s;
+}
+.isimateri6:hover{
+    font-size:3rem;
+    margin-top: 3.8rem;
+}

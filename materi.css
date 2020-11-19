@@ -1,0 +1,85 @@
+body{
+    background-color: white;
+}
+
+/* Navigation */
+.navigation{
+    display:flex;
+    font-size: 1.3rem;
+    font-family: 'Roboto Slab', serif;
+    width:100%;
+}
+.nav_item{
+    color: black;
+}
+.nav_item:hover{
+    color: rgb(192, 21, 21);
+}
+
+/* Home */
+
+.choosematerial{
+    width: 10%;
+    font-size: 5rem;
+    font-family: 'Roboto Slab', serif;
+    /* margin-top: 10rem; */
+    margin-left: 8rem;
+    position: absolute;
+    margin-top: 21rem;
+    line-height: 6rem;
+}
+.choosematerial2{
+    font-size: 5rem;
+    font-family: 'Roboto Slab', serif;
+    /* margin-top: 10rem; */
+    margin-left: 8rem;
+    position: absolute;
+    margin-top: rem;
+    line-height: 6rem;
+}
+
+button{
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    border-radius: .5rem;
+    background-color: black;
+    color: white;
+    margin-left: 10rem;
+    margin-top: 35rem;
+    font-size:1.2rem;
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    box-shadow:0 20px 40px 0 rgba(0, 3, 3, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+button:hover{
+    background-color: red;
+}
+img{
+    width: 40%;
+    height: auto;
+    margin-top: 3rem;
+    margin-left: 44rem;
+    position: absolute;
+    box-shadow:0 20px 40px 0 rgba(0, 3, 3, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* pilihan materi */
+.judul{
+    font-size: 8rem;
+    font-family: 'Roboto Slab', serif;
+    /* margin-top: 10rem; */
+    margin-left: 8rem;
+    position: absolute;
+    line-height: 6rem;
+    margin-top: 18rem;
+}
+.judulM{
+    font-size: 5rem;
+    font-family: 'Roboto Slab', serif;
+    /* margin-top: 10rem; */
+    margin-left: 8rem;
+    position: absolute;
+    line-height: 6rem;
+    margin-top: 18rem;
+}
